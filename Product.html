@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style3.css">
+
+   <!-- custom js file link  -->
+   <script src="script3.js" defer></script>
+
+</head>
+<body>
+     <nav>
+        <style>
+.logo{
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--light-dark-color);
+}
+.logo p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.logo p span{
+    color: yellow;
+}
+    
+            
+             
+
+            
+        </style>
+         <div class = "logo">
+           <div class = "container">
+                <a href="index.html"><p>Westgate<span>Ent</span></p></a>
+               
+            </div>
+        </div>
+    
+        
+        
+        <ul id="menuList">
+            <li><a href="index.html">Movies</a></li>
+            <li><a href="Tvshows.html">TV Shows</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    
+    
+       <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+   
+<div class="container">
+
+   <h3 class="title">ACCESSORIES</h3>
+
+   <div class="products-container">
+ <div class="product" data-name="p-1">
+         <img src="https://i.pinimg.com/564x/81/cd/c0/81cdc083b853ecd7162e626d10f64dbd.jpg" alt="Earphones">
+         <h3>Earphones</h3>
+         <div class="price">Ksh.150</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="https://i.pinimg.com/564x/14/dc/d4/14dcd4e1d3cc8e1db3acc3e7c11b03f4.jpg" alt="BT Wireless Headset M10 Damix V5.3">
+         <h3>BT Wireless Headset M10 Damix V5.3</h3>
+         <div class="price">ksh.900</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0782271/1.jpg?9849" alt="Oraimo Cable 2A Fast Charging">
+         <h3>Oraimo Cable 2A Fast Charging</h3>
+         <div class="price">ksh.250</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="https://i.pinimg.com/originals/68/31/ee/6831eeaa2091b7fb1693e3137c511c01.jpg" alt="Oraimo Charger Kit CU-60ZR+CD-52BR">
+         <h3>Oraimo Charger Kit CU-60ZR+CD-52BR</h3>
+         <div class="price">ksh.550</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/382203/1.jpg?4169" alt="4GB Memory Card - Boost 4GB Micro SD">
+         <h3>4GB Memory Card - Boost 4GB Micro SD</h3>
+         <div class="price">ksh.450</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/90/703992/1.jpg?2252" alt="Memory Card 2GB- Boost Micro SD">
+         <h3>Memory Card 2GB- Boost Micro SD</h3>
+         <div class="price">ksh.350</div>
+      </div>
+
+        <div class="product" data-name="p-7">
+         <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/03/105023/1.jpg?4106" alt="Oraimo Strong Bass Earphones With Mic">
+         <h3>Oraimo Strong Bass Earphones With Mic</h3>
+         <div class="price">ksh.300</div>
+      </div>
+       
+       
+        <div class="product" data-name="p-8">
+         <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/35/612986/1.jpg?9774" alt="Oraimo 3 In 1 Charging/Data Cable (Micro, Type C, Lightning Cable)">
+         <h3>Oraimo 3 In 1 Charging/Data Cable (Micro, Type C, Lightning Cable)</h3>
+         <div class="price">ksh.300</div>
+      </div>
+       
+       
+        <div class="product" data-name="p-9">
+         <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/810659/1.jpg?6539" alt="Advance Original USB FlashDisk 16 GB">
+         <h3>Advance Original USB FlashDisk 16 GB</h3>
+         <div class="price">ksh.900</div>
+      </div>
+       
+       
+        <div class="product" data-name="p-10">
+         <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/02/2635921/1.jpg?4064" alt="Advance 4GB Smart Hi Speed FlashDisk/Flash Disk - Silver">
+         <h3>Advance 4GB Smart Hi Speed FlashDisk/Flash Disk - Silver</h3>
+         <div class="price">ksh.450</div>
+      </div>
+       
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="https://i.pinimg.com/564x/81/cd/c0/81cdc083b853ecd7162e626d10f64dbd.jpg" alt="Earphones">
+      <h3>Earphones</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p></p>
+      <div class="price">ksh.150</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+          <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="https://i.pinimg.com/564x/14/dc/d4/14dcd4e1d3cc8e1db3acc3e7c11b03f4.jpg" alt="BT Wireless Headset M10 Damix V5.3">
+      <h3>BT Wireless Headset M10 Damix V5.3</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p></p>
+      <div class="price">Ksh.900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+        <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/0782271/1.jpg?9849" alt="Oraimo Cable 2A Fast Charging">
+      <h3>Oraimo Cable 2A Fast Charging</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p></p>
+      <div class="price">ksh.250</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+        <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="https://i.pinimg.com/originals/68/31/ee/6831eeaa2091b7fb1693e3137c511c01.jpg" alt="Oraimo Charger Kit CU-60ZR+CD-52BR">
+      <h3>Oraimo Charger Kit CU-60ZR+CD-52BR</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p></p>
+      <div class="price">ksh.550</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/29/382203/1.jpg?4169" alt="4GB Memory Card - Boost 4GB Micro SD">
+      <h3>4GB Memory Card - Boost 4GB Micro SD</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+
+      <div class="price">ksh.450</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+        <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/90/703992/1.jpg?2252" alt="Memory Card 2GB- Boost Micro SD">
+      <h3>Memory Card 2GB- Boost Micro SD</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+    
+      <div class="price">ksh.350</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+        <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+    
+     <div class="preview" data-target="p-7">
+      <i class="fas fa-times"></i>
+      <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/03/105023/1.jpg?4106" alt="Oraimo Strong Bass Earphones With Mic">
+      <h3>Oraimo Strong Bass Earphones With Mic</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+
+      <div class="price">ksh.300</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+        <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+    
+     <div class="preview" data-target="p-8">
+      <i class="fas fa-times"></i>
+      <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/35/612986/1.jpg?9774" alt="Oraimo 3 In 1 Charging/Data Cable (Micro, Type C, Lightning Cable)">
+      <h3>Oraimo 3 In 1 Charging/Data Cable (Micro, Type C, Lightning Cable)</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+
+      <div class="price">ksh.300</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+        <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+     <div class="preview" data-target="p-9">
+      <i class="fas fa-times"></i>
+      <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/810659/1.jpg?6539" alt="Advance Original USB FlashDisk 16 GB">
+      <h3>Advance Original USB FlashDisk 16 GB</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+
+      <div class="price">ksh.900</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+        <a href="#" class="buy">Add cart</a>
+      </div>
+   </div>
+    
+     <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+      <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/02/2635921/1.jpg?4064" alt="Advance 4GB Smart Hi Speed FlashDisk/Flash Disk - Silver">
+      <h3>Advance 4GB Smart Hi Speed FlashDisk/Flash Disk - Silver</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+
+      <div class="price">ksh.450</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+        <a href="#" class="buy">Add cart</a>
+          
+      </div>
+   </div>   
+</div>
+
+    
+</body>
+    
+    <style>
+    
+    .footer{
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--light-dark-color);
+}
+.footer p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.footer p span{
+    color: yellow;
+}     
+        
+        
+    
+    </style>
+    <div class="footer">
+<center><a href="index.html"><p>Westgate<span>Ent</span></p></a></center>
+<br>
+<br>
+<center>@2023-2026</center>
+<center>About   .   FAQ   .  Contact . Terms of Service  .   Privacy policy </center>
+
+</div>
+    
+    
+</html>

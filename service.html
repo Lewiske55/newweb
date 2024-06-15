@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="icon" href="https://img.icons8.com/?size=100&id=6yzLYhZi1gra&format=png&color=000000">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westgate Ent</title> 
+    <link rel="stylesheet" href="style.css">   
+    
+    
+</head>
+<body>
+    <nav>
+        <style>
+.logo{
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--light-dark-color);
+}
+.logo p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.logo p span{
+    color: yellow;
+}
+        </style>
+         <div class = "logo">
+           <div class = "container">
+                <a href="index.html"><p>Westgate<span>Ent</span></p></a>
+               
+            </div>
+        </div>
+    
+        <ul id="menuList">
+            <li><a href="index.html">Movies</a></li>
+            <li><a href="Tvshows.html">TV Shows</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+       
+    <header>
+        <form  id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    </header>
+    <div id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay-content"></div>
+        
+        <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+        
+        <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+      </div>
+    <main id="main"></main>
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+    <style>
+    
+    .footer{
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--light-dark-color);
+}
+.footer p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.footer p span{
+    color: yellow;
+}      
+    
+    </style>
+    <div class="footer">
+<center><a href="index.html"><p>Westgate<span>Ent</span></p></a></center>
+<br>
+<br>
+<center>@2023-2026</center>
+<center>About   .   FAQ   .  Contact . Terms of Service  .   Privacy policy </center>
+
+</div>
+    
+    
+</html>
