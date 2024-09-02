@@ -34,18 +34,18 @@
         </div>
     
     
-        <ul id="menuList">
-            <li><a href="index.html">Movies</a></li>
-            <li><a href="Tvshows.html">TV Shows</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="Product.html">Product</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+         <ul id="menuList">
+            <li><a href="index.html"><i class="fas fa-film"></i>Movies</a></li>
+            <li><a href="Tvshows.html"><i class="fas fa-tv-alt"></i>Series</a></li>
+            <li><a href="service.html"><i class="fas fa-user-cog"></i>Services</a></li>
+            <li><a href="Product.html"><i class="fas fa-cart-plus"></i>Product</a></li>
+            <li><a href="Contact.html"><i class="fas fa-phone"></i>Contact</a></li>    
         </ul>
+        
         <div class="menu-icon">
             <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
         </div>
     </nav>
-
 
     <script>
         let menuList = document.getElementById("menuList")
@@ -62,6 +62,35 @@
         }
         
     </script>
+    
+    
+    <style>
+.logo{
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--light-dark-color);
+    align-content: center;
+    position: center;
+}
+.logo p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.logo p span{
+    color: yellow;
+}
+        </style>
+         <div class = "logo">
+           <div class = "container">
+                <center><a href="Tvshows.html"><p>TV<span>Series</span></p></a></center>
+               
+            </div>
+        </div>
+    
+    
+    
+    
+    
     <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
        
     <header>
@@ -69,8 +98,16 @@
             <input type="text" placeholder="Search" id="search" class="search">
         </form>
     </header>
+
     
-    <div id="tags"></div>
+    
+    <div id="tags">
+    
+    </div>
+    
+    
+    
+    
     <div id="myNav" class="overlay">
 
         <!-- Button to close the overlay navigation -->

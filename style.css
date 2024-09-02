@@ -123,8 +123,11 @@ main{
 @media (max-width:600px) {
     .tag{
         
+        
     }
 }
+
+
 .tag{
     color:white;
     padding:10px 20px;
@@ -303,6 +306,7 @@ nav{
     background: #352F44;
     position: relative;
     height: 70px;
+ 
 }
 
 .logo{

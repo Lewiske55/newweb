@@ -2,7 +2,7 @@
 
 const API_KEY = 'api_key=09a4be8ee4d79b36cabe88b6ec42a34c';
 const BASE_URL = 'https://api.themoviedb.org/3';
-const API_URL = BASE_URL + '/discover/tv?include_adult=false&include_null_first_air_dates=false&language=en-US&sort_by=popularity.desc&vote_average.gte=7&'+API_KEY;
+const API_URL = BASE_URL + '/trending/tv/day?language=en-US&'+API_KEY;
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const searchURL = BASE_URL + '/search/tv?'+API_KEY;
 
